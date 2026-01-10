@@ -22,7 +22,7 @@
 
 &mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
 
-&msc_input_listener { input-processors = <&zip_scroll_scaler 2 1>; }; // ori: 2 1 (works pefectly with smooth scrolling=y) // stable: 1 8
+&msc_input_listener { input-processors = <&zip_scroll_scaler 4 1>; }; // ori: 2 1 (works pefectly with smooth scrolling=y)
 
 &msc {
     acceleration-exponent = <0>;      // 0
@@ -41,7 +41,7 @@
         #sensor-binding-cells = <0>;
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
-        tap-ms = <35>; // stable: 100
+        tap-ms = <35>;
     };
 
     macros {
