@@ -22,7 +22,7 @@
 
 &mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
 
-&msc_input_listener { input-processors = <&zip_scroll_scaler 4 1>; }; // ori: 2 1 (works pefectly with smooth scrolling=y)
+&msc_input_listener { input-processors = <&zip_scroll_scaler 2 1>; }; // ori: 2 1 (works pefectly with smooth scrolling=y)
 &msc {
     acceleration-exponent = <0>;      // 0
     time-to-max-speed-ms = <0>;       // 300
