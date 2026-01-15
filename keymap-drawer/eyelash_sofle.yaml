@@ -197,8 +197,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   layer3:
   - {t: '`', s: '~'}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {t: 'Ctl+[', s: 'Ctl+{'}
+  - {t: 'Ctl+]', s: 'Ctl+}'}
   - Sft+F3
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -210,8 +210,8 @@ layers:
   - {t: '=', s: +}
   - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - {t: Sft+`, s: Sft+~}
-  - {t: 'Ctl+[', s: 'Ctl+{'}
-  - {t: 'Ctl+]', s: 'Ctl+}'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+T
