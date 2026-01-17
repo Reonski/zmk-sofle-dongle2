@@ -130,5 +130,24 @@
             display-name = "layer4";
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
+
+        cond.layer {
+            bindings = <
+&trans  &trans  &trans         &trans         &trans         &trans           &trans  &trans  &trans         &trans  &trans  &trans  &trans
+&trans  &trans  &trans         &trans         &trans         &trans           &trans  &trans  &trans         &trans  &trans  &trans  &trans
+&trans  &trans  &kp LC(RA(S))  &trans         &trans         &trans           &trans  &trans  &trans         &trans  &trans  &trans  &trans
+&trans  &trans  &kp LC(LA(X))  &kp LC(LA(C))  &kp LC(LS(V))  &kp LC(LA(B))    &trans  &trans  &kp LC(LA(M))  &trans  &trans  &trans  &trans
+&trans  &trans  &trans         &trans         &trans         &trans           &trans  &trans  &trans         &trans  &trans  &trans
+            >;
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        cond.layer {
+            if-layers = <3 4>;
+            then-layer = <5>;
+        };
     };
 };
