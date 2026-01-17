@@ -139,6 +139,8 @@
 &trans  &trans  &kp LC(LA(X))  &kp LC(LA(C))  &kp LC(LS(V))  &kp LC(LA(B))    &trans  &trans  &kp LC(LA(M))  &trans  &trans  &trans  &trans
 &trans  &trans  &trans         &trans         &trans         &trans           &trans  &trans  &trans         &trans  &trans  &trans
             >;
+
+            display-name = "cond.layer";
         };
     };
 
