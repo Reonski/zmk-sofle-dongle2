@@ -201,7 +201,7 @@ layers:
   - {t: 'Ctl+]', s: 'Ctl+}'}
   - Sft+F3
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+PRINTSCREEN
   - Ctl+$$mdi:arrow-up-bold$$
   - Ctl+X
   - {t: ',', s: <}
