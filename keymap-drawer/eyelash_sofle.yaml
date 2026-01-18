@@ -391,45 +391,45 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   stenotype:
-  - '#'
-  - '#'
-  - '#'
-  - '#'
-  - '#'
-  - '#'
+  - {t: '=', s: +}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - {t: '5', s: '%'}
   - $$mdi:arrow-up-bold$$
-  - '#'
-  - '#'
-  - '#'
-  - '#'
-  - '#'
+  - '6'
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - S
+  - Q
   - T
-  - P
-  - H
-  - '*'
+  - E
+  - R
+  - T
   - $$mdi:arrow-down-bold$$
-  - '*'
-  - F
+  - Y
+  - U
+  - I
+  - O
   - P
-  - L
-  - T
-  - D
+  - {t: '[', s: '{'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - A
   - S
-  - K
-  - W
-  - R
-  - '*'
-  - $$mdi:arrow-left-bold$$
-  - '*'
-  - R
-  - B
+  - D
+  - F
   - G
-  - S
-  - Z
+  - $$mdi:arrow-left-bold$$
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -447,11 +447,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - A
-  - O
+  - C
+  - V
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - E
-  - U
+  - N
+  - M
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: layer0, h: toggle}
