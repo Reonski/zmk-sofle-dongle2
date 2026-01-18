@@ -152,7 +152,7 @@
 &none     &none     &none     &none     &kp A     &kp O           &none  &kp E         &kp U     &kp RIGHT_CONTROL  &none     &tog 0
             >;
 
-            display-name = "stenotype"
+            display-name = "stenotype";
             sensor-bindings = <&scroll_encoder>;
         };
     };
