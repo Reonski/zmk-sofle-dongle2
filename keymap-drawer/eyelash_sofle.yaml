@@ -64,7 +64,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-control$$
   - layer2
-  - $$mdi:apple-keyboard-option$$
+  - {t: '6', h: toggle}
   layer1:
   - {t: '`', s: '~'}
   - F1
@@ -351,7 +351,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Ctl+Sft+-, s: Ctl+Sft+_}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+AltGr+S
@@ -370,7 +370,7 @@ layers:
   - Ctl+Alt+X
   - Ctl+Alt+C
   - Ctl+Sft+V
-  - Ctl+Alt+B
+  - Ctl+Sft+B
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Alt+M
@@ -390,3 +390,68 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  '6':
+  - '#'
+  - '#'
+  - '#'
+  - '#'
+  - '#'
+  - '#'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '#'
+  - '#'
+  - '#'
+  - '#'
+  - '#'
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - S
+  - T
+  - P
+  - H
+  - '*'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '*'
+  - F
+  - P
+  - L
+  - T
+  - D
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - S
+  - K
+  - W
+  - R
+  - '*'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '*'
+  - R
+  - B
+  - G
+  - S
+  - Z
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - A
+  - O
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - E
+  - U
+  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: layer0, h: toggle}
