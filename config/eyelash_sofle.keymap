@@ -58,9 +58,29 @@
 
             label = "SHIFT_MB3";
         };
+
+        Court_Yes: Court_Yes {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp LS(C) &kp O &kp U &kp R &kp T &kp COLON &kp TAB &kp LS(Y) &kp E &kp S &kp DOT &kp ENTER>;
+
+            label = "COURT_YES";
+        };
     };
 
     behaviors {
+    };
+
+    combos {
+        compatible = "zmk,combos";
+
+        Court_Yes {
+            bindings = <&Court_Yes>;
+            key-positions = <31 44 0>;
+            layers = <0>;
+        };
     };
 
     keymap {
