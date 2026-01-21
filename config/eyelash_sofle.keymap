@@ -62,11 +62,15 @@
         Court_Yes: Court_Yes {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_tap>,
-                <&kp LS(C) &kp O &kp U &kp R &kp T &kp COLON &kp TAB &kp LS(Y) &kp E &kp S &kp DOT &kp ENTER>;
-
+            bindings = <&kp LA(C) &kp COLON &kp TAB &kp LS(Y) &kp E &kp S &kp DOT &kp ENTER>;
             label = "COURT_YES";
+        };
+
+        agdg: agdg {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp A &kp G &kp R &kp E &kp E &kp SPACE &kp O &kp R &kp SPACE &kp D &kp I &kp S &kp A &kp G &kp R &kp E &kp E>;
+            label = "AGDG";
         };
     };
 
@@ -79,6 +83,12 @@
         Court_Yes {
             bindings = <&Court_Yes>;
             key-positions = <31 44 0>;
+            layers = <0>;
+        };
+
+        agdg {
+            bindings = <&agdg>;
+            key-positions = <31 44 1>;
             layers = <0>;
         };
     };
