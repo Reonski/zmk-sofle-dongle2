@@ -62,7 +62,7 @@
         Court_Yes: Court_Yes {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(C) &kp COLON &kp TAB &kp LS(Y) &kp E &kp S &kp DOT &kp ENTER>;
+            bindings = <&kp LA(C) &kp LS(Y) &kp E &kp S &kp DOT &kp ENTER>;
             label = "COURT_YES";
         };
 
