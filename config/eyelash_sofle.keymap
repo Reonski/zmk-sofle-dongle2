@@ -76,7 +76,7 @@
         agree_ag: agree_ag {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp A &kp G &kp A &kp G &kp R &kp E &kp E>;
+            bindings = <&none &kp A &kp G &kp R &kp E &kp E>;
             label = "AGREE_AG";
         };
 
