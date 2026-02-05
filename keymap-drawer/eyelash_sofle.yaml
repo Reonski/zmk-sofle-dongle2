@@ -473,6 +473,6 @@ combos:
   l: [layer0]
 - p: [27, 29, 31]
   k: '&agdg'
-- p: [27, 31, 18, 47]
-  k: {t: '$$mdi:minus-circle-outline$$', type: none}
+- p: [27, 18, 47, 31]
+  k: '&agreement'
   l: [layer0]
