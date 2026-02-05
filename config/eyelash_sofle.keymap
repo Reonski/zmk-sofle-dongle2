@@ -69,35 +69,35 @@
         agdg: agdg {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp A &kp G &kp R &kp E &kp E &kp SPACE &kp O &kp R &kp SPACE &kp D &kp I &kp S &kp A &kp G &kp R &kp E &kp E>;
+            bindings = <&none &kp A &kp G &kp D &kp G>;
             label = "AGDG";
         };
 
         agree_ag: agree_ag {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp A &kp G &kp R &kp E &kp E>;
+            bindings = <&none &kp A &kp G>;
             label = "AGREE_AG";
         };
 
         disagree_dg: disagree_dg {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp D &kp I &kp S &kp A &kp G &kp R &kp E &kp E>;
+            bindings = <&none &kp D &kp G>;
             label = "DISAGREE_DG";
         };
 
         your_honour: your_honour {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(Y) &kp O &kp U &kp R &kp LC(LS(SPACE)) &kp LS(H) &kp O &kp N &kp O &kp U &kp R>;
+            bindings = <&none &kp Y &kp H>;
             label = "YOUR_HONOUR";
         };
 
         agreement: agreement {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp A &kp G &kp R &kp E &kp E &kp M &kp E &kp N &kp T>;
+            bindings = <&none &kp A &kp G &kp M &kp T>;
             label = "AGREEMENT";
         };
     };
