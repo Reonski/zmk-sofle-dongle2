@@ -72,6 +72,34 @@
             bindings = <&none &kp A &kp G &kp R &kp E &kp E &kp SPACE &kp O &kp R &kp SPACE &kp D &kp I &kp S &kp A &kp G &kp R &kp E &kp E>;
             label = "AGDG";
         };
+
+        agree_ag: agree_ag {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp A &kp G &kp A &kp G &kp R &kp E &kp E>;
+            label = "AGREE_AG";
+        };
+
+        disagree_dg: disagree_dg {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp D &kp I &kp S &kp A &kp G &kp R &kp E &kp E>;
+            label = "DISAGREE_DG";
+        };
+
+        your_honour: your_honour {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(Y) &kp O &kp U &kp R &kp LC(LS(SPACE)) &kp LS(H) &kp O &kp N &kp O &kp U &kp R>;
+            label = "YOUR_HONOUR";
+        };
+
+        agreement: agreement {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp A &kp G &kp R &kp E &kp E &kp M &kp E &kp N &kp T>;
+            label = "AGREEMENT";
+        };
     };
 
     behaviors {
@@ -89,6 +117,35 @@
         agdg {
             bindings = <&agdg>;
             key-positions = <31 44 1>;
+            layers = <0>;
+        };
+
+        your_honour {
+            bindings = <&your_honour>;
+            key-positions = <20 33>;
+            layers = <0>;
+        };
+
+        agree {
+            bindings = <&agree_ag>;
+            key-positions = <27 31>;
+            layers = <0>;
+        };
+
+        disagree {
+            bindings = <&disagree_dg>;
+            key-positions = <29 31>;
+            layers = <0>;
+        };
+
+        ag_or_dg {
+            bindings = <&agdg>;
+            key-positions = <27 29 31>;
+        };
+
+        agreement {
+            bindings = <&none>;
+            key-positions = <27 31 18 47>;
             layers = <0>;
         };
     };
