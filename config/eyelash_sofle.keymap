@@ -218,6 +218,55 @@
             bindings = <&none &kp I &kp S>;
             label = "NUMPAD_IS";
         };
+
+        wer_shortcut: wer_shortcut {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp W &kp E &kp R>;
+            label = "WER_SHORTCUT";
+        };
+
+        rew_shortcut: rew_shortcut {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp R &kp E &kp W>;
+            label = "REW_SHORTCUT";
+        };
+
+        sdf_shortcut: sdf_shortcut {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp S &kp D &kp F>;
+            label = "SDF_SHORTCUT";
+        };
+
+        fds_shortcut: fds_shortcut {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp F &kp D &kp S>;
+            label = "FDS_SHORTCUT";
+        };
+
+        can_numpad: can_numpad {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp C &kp A &kp N>;
+            label = "CAN_NUMPAD";
+        };
+
+        sure_numpad: sure_numpad {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp S &kp U &kp R &kp E>;
+            label = "SURE_NUMPAD";
+        };
+
+        del_bold_numpad: del_bold_numpad {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp D &kp E &kp L &kp SPACE &kp BACKSPACE>;
+            label = "DEL_BOLD_NUMPAD";
+        };
     };
 
     behaviors {
@@ -379,6 +428,47 @@
             bindings = <&numpad_is>;
             key-positions = <22 28>;
             layers = <1>;
+        };
+
+        wer_numpad {
+            bindings = <&wer_shortcut>;
+            key-positions = <15 16 17>;
+            layers = <1>;
+        };
+
+        rew_numpad {
+            bindings = <&rew_shortcut>;
+            key-positions = <16 17 18>;
+            layers = <1>;
+        };
+
+        sdf_numpad {
+            bindings = <&sdf_shortcut>;
+            key-positions = <28 29 30>;
+            layers = <1>;
+        };
+
+        fds_numpad {
+            bindings = <&fds_shortcut>;
+            key-positions = <29 30 31>;
+            layers = <1>;
+        };
+
+        can_numpad {
+            bindings = <&can_numpad>;
+            key-positions = <42 27 46>;
+            layers = <1>;
+        };
+
+        sure_numpad {
+            bindings = <&sure_numpad>;
+            key-positions = <28 17 21>;
+            layers = <1>;
+        };
+
+        del_bold_numpad {
+            bindings = <&del_bold_numpad>;
+            key-positions = <51 29>;
         };
     };
 
