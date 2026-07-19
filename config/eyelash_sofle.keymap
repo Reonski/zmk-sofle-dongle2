@@ -469,6 +469,7 @@
         del_bold_numpad {
             bindings = <&del_bold_numpad>;
             key-positions = <51 29>;
+            layers = <1>;
         };
     };
 
