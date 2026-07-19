@@ -468,3 +468,23 @@ combos:
 - p: [22, 28]
   k: '&numpad_is'
   l: [shortcut-numpad]
+- p: [15, 16, 17]
+  k: '&wer_shortcut'
+  l: [shortcut-numpad]
+- p: [16, 17, 18]
+  k: '&rew_shortcut'
+  l: [shortcut-numpad]
+- p: [28, 29, 30]
+  k: '&sdf_shortcut'
+  l: [shortcut-numpad]
+- p: [29, 30, 31]
+  k: '&fds_shortcut'
+  l: [shortcut-numpad]
+- p: [42, 27, 46]
+  k: '&can_numpad'
+  l: [shortcut-numpad]
+- p: [28, 17, 21]
+  k: '&sure_numpad'
+  l: [shortcut-numpad]
+- p: [51, 29]
+  k: '&del_bold_numpad'
