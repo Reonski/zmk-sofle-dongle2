@@ -290,13 +290,13 @@
         agree {
             bindings = <&agree_ag>;
             key-positions = <27 31>;
-            layers = <0 1>;
+            layers = <1>;
         };
 
         disagree {
             bindings = <&disagree_dg>;
             key-positions = <29 31>;
-            layers = <0 1>;
+            layers = <1>;
         };
 
         agreement {
@@ -308,13 +308,13 @@
         witness {
             bindings = <&witness>;
             key-positions = <15 18>;
-            layers = <0>;
+            layers = <1>;
         };
 
         witnesses {
             bindings = <&witnesses>;
             key-positions = <15 18 28>;
-            layers = <0>;
+            layers = <1>;
         };
 
         space_backspace {
