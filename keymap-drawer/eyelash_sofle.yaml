@@ -399,19 +399,19 @@ combos:
   l: [qwerty, shortcut-numpad]
 - p: [27, 31]
   k: '&agree_ag'
-  l: [qwerty, shortcut-numpad]
+  l: [shortcut-numpad]
 - p: [29, 31]
   k: '&disagree_dg'
-  l: [qwerty, shortcut-numpad]
+  l: [shortcut-numpad]
 - p: [27, 18, 31]
   k: '&agreement'
   l: [qwerty]
 - p: [15, 18]
   k: '&witness'
-  l: [qwerty]
+  l: [shortcut-numpad]
 - p: [15, 18, 28]
   k: '&witnesses'
-  l: [qwerty]
+  l: [shortcut-numpad]
 - p: [59, 12]
   k: '&space_backspace'
   l: [qwerty, shortcut-numpad]
