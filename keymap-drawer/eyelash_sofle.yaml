@@ -489,3 +489,9 @@ combos:
 - p: [51, 29]
   k: '&del_bold_numpad'
   l: [shortcut-numpad]
+- p: [39, 8]
+  k: '&numpad_and'
+  l: [shortcut-numpad]
+- p: [22, 47]
+  k: '&numpad_im'
+  l: [shortcut-numpad]
