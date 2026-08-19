@@ -267,6 +267,20 @@
             bindings = <&none &kp D &kp E &kp L &kp SPACE &kp BACKSPACE>;
             label = "DEL_BOLD_NUMPAD";
         };
+
+        numpad_and: numpad_and {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp A &kp N &kp D>;
+            label = "NUMPAD_AND";
+        };
+
+        numpad_im: numpad_im {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp I &kp M>;
+            label = "NUMPAD_IM";
+        };
     };
 
     behaviors {
@@ -469,6 +483,18 @@
         del_bold_numpad {
             bindings = <&del_bold_numpad>;
             key-positions = <51 29>;
+            layers = <1>;
+        };
+
+        numpad_and {
+            bindings = <&numpad_and>;
+            key-positions = <39 8>;
+            layers = <1>;
+        };
+
+        numpad_im {
+            bindings = <&numpad_im>;
+            key-positions = <22 47>;
             layers = <1>;
         };
     };
